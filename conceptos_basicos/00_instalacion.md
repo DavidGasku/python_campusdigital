@@ -59,11 +59,6 @@ Abre VSCode y ve a Extensiones (Ctrl+Shift+X):
    - Instalar la de Microsoft (ms-python.python)
    - Proporciona: autocompletado, debugging, linting
 
-2. **Markdown Preview Enhanced**
-   - Buscar "Markdown Preview Enhanced"
-   - Instalar la de Yiyi Wang
-   - Para visualizar archivos .md del curso
-
 ### Extensiones Opcionales (recomendadas)
 
 - **Python Indent**: Ayuda con la indentación automática
@@ -72,8 +67,6 @@ Abre VSCode y ve a Extensiones (Ctrl+Shift+X):
 ## 5. Descargar los materiales del curso
 
 Una vez instalado Git, descarga los materiales del curso:
-
-### Opción 1: Desde la terminal de VSCode
 
 1. Abrir VSCode
 2. Abrir Terminal (menú **Terminal** → **New Terminal** o Ctrl+Ñ)
@@ -92,30 +85,11 @@ Una vez instalado Git, descarga los materiales del curso:
    ```
 6. Abrir la carpeta en VSCode: **File → Open Folder** y seleccionar `dalp`
 
-### Opción 2: Desde Git Bash (Windows)
-
-1. Abrir **Git Bash** (buscar en el menú inicio)
-2. Ir a Documentos:
-   ```bash
-   cd ~/Documents
-   ```
-3. Clonar el repositorio:
-   ```bash
-   git clone https://hefestos.empiriastudio.com/davidgasku/dalp.git
-   ```
-4. Abrir VSCode en esa carpeta:
-   ```bash
-   cd dalp
-   code .
-   ```
-
 ### ¿Qué acabas de hacer?
 
 `git clone` ha descargado todos los materiales del curso a tu ordenador:
 - Ejercicios de Python
 - Ejemplos de código
-- Aventuras de texto
-- Soluciones
 - Documentación en Markdown
 
 Ahora puedes trabajar con todos estos archivos en VSCode.
@@ -125,8 +99,8 @@ Ahora puedes trabajar con todos estos archivos en VSCode.
 ### Visualizar archivos Markdown
 
 1. En VSCode, abre cualquier archivo `.md` del repositorio
-2. Presiona `Ctrl+K` y luego `V` (o clic derecho → "Markdown Preview Enhanced: Open Preview to the Side")
-3. Deberías ver el archivo formateado
+2. Para ver el archivo formateado, presiona `Ctrl+Shift+V` (o `Cmd+Shift+V` en Mac)
+3. VSCode incluye soporte nativo para Markdown, no necesitas extensiones adicionales
 
 ### Ejecutar tu primer programa Python
 
@@ -147,9 +121,8 @@ Ahora puedes trabajar con todos estos archivos en VSCode.
 
 ✅ **Python** - El lenguaje de programación
 ✅ **Git** - Para descargar y actualizar materiales
-✅ **VSCode** - El editor de código
+✅ **VSCode** - El editor de código (con soporte nativo para Markdown)
 ✅ **Extensión Python** - Soporte para Python en VSCode
-✅ **Extensión Markdown** - Para ver la documentación
 ✅ **Repositorio del curso** - Todos los materiales descargados
 
 ## Actualizar los materiales del curso

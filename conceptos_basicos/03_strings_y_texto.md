@@ -26,30 +26,16 @@ saludo = "Hola, " + nombre + "!"
 print(saludo)  # Hola, Carlos!
 ```
 
-### Método 2: f-strings (recomendado) ⭐
-
-Las f-strings son la forma moderna y más legible:
-
-```python
-nombre = "Ana"
-edad = 25
-
-# Pones 'f' antes de las comillas y las variables entre {}
-mensaje = f"Me llamo {nombre} y tengo {edad} años"
-print(mensaje)  # Me llamo Ana y tengo 25 años
-
-# Puedes hacer operaciones dentro
-puntos = 150
-print(f"Tienes {puntos} puntos, el doble sería {puntos * 2}")
-```
-
 ### Con input()
 
 ```python
 nombre = input("¿Cómo te llamas? ")
 edad = input("¿Cuántos años tienes? ")
 
-# Usando f-strings con input
+# Usando concatenación con input
+print("Hola " + nombre + ", tienes " + edad + " años")
+
+# También puedes usar f-strings (ya visto en capítulo 1)
 print(f"Hola {nombre}, tienes {edad} años")
 ```
 
@@ -142,7 +128,7 @@ Pide al usuario:
 - Su ciudad
 - Su edad
 
-Usando f-strings, muestra:
+Usando concatenación o f-strings, muestra:
 "Hola, soy [nombre], tengo [edad] años y vivo en [ciudad]"
 
 ---
@@ -165,7 +151,7 @@ Pide al usuario:
 - Año de estreno
 - Puntuación (0-10)
 
-Muestra con f-strings:
+Muestra con concatenación o f-strings:
 "La película [titulo] ([año]) tiene una puntuación de [puntuacion]/10"
 
 ---
@@ -218,7 +204,7 @@ Muestra el resultado.
 
 ## 💡 Tips
 
-- **f-strings** son la forma preferida para combinar texto y variables
+- **Concatenación** con `+` y **f-strings** son las formas principales para combinar texto y variables
 - Los métodos de strings **no modifican** el original, devuelven uno nuevo
 - `len()` funciona con cualquier string
 - Usa `in` para comprobar si un texto contiene otro

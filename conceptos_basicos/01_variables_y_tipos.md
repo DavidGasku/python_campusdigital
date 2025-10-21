@@ -1,5 +1,90 @@
 # 01 - Variables y Tipos de Datos
 
+## Mostrar información con print()
+
+Antes de trabajar con variables, necesitamos saber cómo mostrar información en pantalla. En Python usamos la función `print()`:
+
+```python
+print("Hola, mundo!")
+print("Mi primer programa en Python")
+print(42)
+print(3.14)
+```
+
+**Características de print():**
+- Muestra texto o números en la pantalla
+- Cada `print()` aparece en una línea nueva
+- El texto va entre comillas (`"` o `'`)
+- Los números van sin comillas
+
+```python
+# Mostrar diferentes tipos de datos
+print("Esto es texto")
+print(123)
+print(45.67)
+print(True)
+
+# Mostrar varias cosas en un solo print()
+print("El resultado es:", 10 + 5)
+print("Tu edad es", 25, "años")
+```
+
+### Diferentes formas de imprimir
+
+**1. Print básico**
+```python
+print("Hola")
+print(42)
+```
+
+**2. Print con múltiples valores**
+```python
+nombre = "Ana"
+edad = 25
+print("Nombre:", nombre, "Edad:", edad)
+# Salida: Nombre: Ana Edad: 25
+```
+
+**3. F-strings (forma moderna y recomendada)**
+```python
+nombre = "Ana"
+edad = 25
+print(f"Mi nombre es {nombre} y tengo {edad} años")
+# Salida: Mi nombre es Ana y tengo 25 años
+
+precio = 19.99
+print(f"El precio es {precio:.2f} euros")
+# Salida: El precio es 19.99 euros
+```
+
+**4. Método .format()**
+```python
+nombre = "Ana"
+edad = 25
+print("Mi nombre es {} y tengo {} años".format(nombre, edad))
+# Salida: Mi nombre es Ana y tengo 25 años
+```
+
+**5. Concatenación de strings**
+```python
+nombre = "Ana"
+edad = "25"  # Debe ser string para concatenar
+print("Mi nombre es " + nombre + " y tengo " + edad + " años")
+# Salida: Mi nombre es Ana y tengo 25 años
+```
+
+**6. Print con separadores personalizados**
+```python
+print("rojo", "verde", "azul", sep="-")
+# Salida: rojo-verde-azul
+
+print("Línea 1", end=" ")
+print("Línea 2")
+# Salida: Línea 1 Línea 2 (en la misma línea)
+```
+
+**💡 Recomendación:** Usa **f-strings** siempre que puedas, es la forma más clara y eficiente.
+
 ## ¿Qué es una variable?
 
 Una variable es como una **caja** donde guardamos información para usarla después. En Python no hace falta declararlas, solo asignar un valor.
