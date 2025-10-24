@@ -37,17 +37,17 @@ else:
     print("Eres menor de edad")
 ```
 
-### ⚠️ IMPORTANTE: La indentación
+### IMPORTANTE: La indentación
 
 La **indentación** (espacios al inicio) es **obligatoria** en Python:
 
 ```python
-# ✅ CORRECTO
+# CORRECTO
 if edad >= 18:
     print("Mayor de edad")  # 4 espacios (o 1 tab)
     print("Puedes votar")
 
-# ❌ ERROR
+# ERROR
 if edad >= 18:
 print("Mayor de edad")  # Sin espacios → ERROR!
 ```
@@ -113,7 +113,7 @@ print(x >= 10) # True
 print(y <= 5)  # True
 ```
 
-### ⚠️ Cuidado: = vs ==
+### Cuidado: = vs ==
 
 ```python
 # = es asignación (dar valor)
@@ -230,7 +230,7 @@ else:
 
 ---
 
-## 📝 Ejercicios
+## Ejercicios
 
 ### Ejercicio 1: Detector de par o impar con input()
 
@@ -337,7 +337,7 @@ Decide:
 
 ---
 
-## 💡 Tips
+## Tips
 
 - La **indentación** es obligatoria (usa 4 espacios o 1 tab)
 - Usa `==` para comparar, no `=`
@@ -346,26 +346,26 @@ Decide:
 - `or` requiere que **al menos una** condición sea True
 - Usa `.lower()` en inputs para aceptar "SI", "Si", "si", etc.
 
-## ⚠️ Errores comunes
+## Errores comunes
 
 ```python
 # ERROR 1: Usar = en vez de ==
-if edad = 18:  # ❌ ERROR!
-if edad == 18: # ✅ CORRECTO
+if edad = 18:  # ERROR!
+if edad == 18: # CORRECTO
 
 # ERROR 2: Olvidar los dos puntos :
-if edad >= 18  # ❌ ERROR!
-if edad >= 18: # ✅ CORRECTO
+if edad >= 18  # ERROR!
+if edad >= 18: # CORRECTO
 
 # ERROR 3: Sin indentación
 if edad >= 18:
-print("Mayor")  # ❌ ERROR!
+print("Mayor")  # ERROR!
 
 if edad >= 18:
-    print("Mayor")  # ✅ CORRECTO
+    print("Mayor")  # CORRECTO
 ```
 
-## 🎯 Resumen
+## Resumen
 
 ```python
 # Estructura básica

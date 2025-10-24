@@ -122,7 +122,7 @@ print(f"División: {division}")
 
 ---
 
-## 📝 Ejercicios
+## Ejercicios
 
 ### Ejercicio 1: Calculadora básica con input()
 
@@ -218,14 +218,14 @@ Puntos finales: 50
 
 ---
 
-## 💡 Tips
+## Tips
 
 - La división (`/`) siempre devuelve un float, incluso si el resultado es entero
 - Usa paréntesis cuando tengas dudas sobre el orden
 - El operador `%` es muy útil para saber si un número es par: `numero % 2 == 0`
 - Los operadores compuestos (`+=`, `-=`, etc.) hacen el código más corto
 
-## 🎯 Resumen
+## Resumen
 
 | Operador | Operación | Ejemplo | Resultado |
 |----------|-----------|---------|-----------|

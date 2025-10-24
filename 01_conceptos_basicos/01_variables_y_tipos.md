@@ -83,7 +83,7 @@ print("Línea 2")
 # Salida: Línea 1 Línea 2 (en la misma línea)
 ```
 
-**💡 Recomendación:** Usa **f-strings** siempre que puedas, es la forma más clara y eficiente.
+**Recomendación:** Usa **f-strings** siempre que puedas, es la forma más clara y eficiente.
 
 ## ¿Qué es una variable?
 
@@ -194,28 +194,28 @@ altura = float(input("¿Cuánto mides en metros? "))
 print(f"Mides {altura} metros")
 ```
 
-**⚠️ Recuerda:** `input()` siempre devuelve un string. Si necesitas un número, usa `int()` o `float()`.
+**Recuerda:** `input()` siempre devuelve un string. Si necesitas un número, usa `int()` o `float()`.
 
 ## Reglas para nombres de variables
 
-✅ **Permitido:**
+**Permitido:**
 - Letras (a-z, A-Z)
 - Números (pero no al inicio)
 - Guión bajo (_)
 
-❌ **No permitido:**
+**No permitido:**
 - Empezar con número
 - Espacios
 - Caracteres especiales (@, #, $, etc.)
 
 ```python
-# ✅ Bien
+# Bien
 nombre = "Ana"
 edad_usuario = 25
 precio_total = 100
 dato1 = "valor"
 
-# ❌ Mal
+# Mal
 1nombre = "Ana"      # Empieza con número
 edad usuario = 25    # Tiene espacio
 precio-total = 100   # Guión medio no permitido
@@ -229,7 +229,7 @@ precio-total = 100   # Guión medio no permitido
 
 ---
 
-## 📝 Ejercicios
+## Ejercicios
 
 ### Ejercicio 1: Tus datos personales con input()
 
@@ -257,14 +257,14 @@ Estudiante: True (tipo: <class 'bool'>)
 
 ---
 
-## 💡 Tips
+## Tips
 
 - Para ver el tipo de una variable usa: `type(variable)`
 - Para imprimir con formato usa f-strings: `print(f"Edad: {edad}")`
 - Python es sensible a mayúsculas: `Nombre` y `nombre` son diferentes
 - `input()` siempre devuelve string, conviértelo si necesitas número
 
-## 🎯 Resumen
+## Resumen
 
 - Las variables guardan información
 - Tipos principales: `str`, `int`, `float`, `bool`

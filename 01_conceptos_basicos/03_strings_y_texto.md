@@ -119,7 +119,7 @@ print('Dijo: "Hola"')    # Más fácil con comillas simples
 
 ---
 
-## 📝 Ejercicios
+## Ejercicios
 
 ### Ejercicio 1: Presentación personalizada con input()
 
@@ -202,7 +202,7 @@ Muestra el resultado.
 
 ---
 
-## 💡 Tips
+## Tips
 
 - **Concatenación** con `+` y **f-strings** son las formas principales para combinar texto y variables
 - Los métodos de strings **no modifican** el original, devuelven uno nuevo
@@ -210,7 +210,7 @@ Muestra el resultado.
 - Usa `in` para comprobar si un texto contiene otro
 - `.lower()` o `.upper()` son útiles para comparar strings sin importar mayúsculas
 
-## 🎯 Resumen
+## Resumen
 
 | Operación | Código | Resultado |
 |-----------|--------|-----------|

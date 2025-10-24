@@ -119,11 +119,11 @@ Ahora puedes trabajar con todos estos archivos en VSCode.
 
 ## Resumen de lo instalado
 
-✅ **Python** - El lenguaje de programación
-✅ **Git** - Para descargar y actualizar materiales
-✅ **VSCode** - El editor de código (con soporte nativo para Markdown)
-✅ **Extensión Python** - Soporte para Python en VSCode
-✅ **Repositorio del curso** - Todos los materiales descargados
+**Python** - El lenguaje de programación
+**Git** - Para descargar y actualizar materiales
+**VSCode** - El editor de código (con soporte nativo para Markdown)
+**Extensión Python** - Soporte para Python en VSCode
+**Repositorio del curso** - Todos los materiales descargados
 
 ## Actualizar los materiales del curso
 
