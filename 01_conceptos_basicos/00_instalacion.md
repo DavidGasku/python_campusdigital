@@ -77,13 +77,13 @@ Una vez instalado Git, descarga los materiales del curso:
    ```
 4. Clonar el repositorio:
    ```bash
-   git clone https://hefestos.empiriastudio.com/davidgasku/dalp.git
+   git clone https://github.com/DavidGasku/python_campusdigital.git
    ```
 5. Entrar en la carpeta descargada:
    ```bash
-   cd dalp
+   cd python_campusdigital
    ```
-6. Abrir la carpeta en VSCode: **File → Open Folder** y seleccionar `dalp`
+6. Abrir la carpeta en VSCode: **File → Open Folder** y seleccionar `python_campusdigital`
 
 ### ¿Qué acabas de hacer?
 
@@ -130,9 +130,9 @@ Ahora puedes trabajar con todos estos archivos en VSCode.
 Si el profesor actualiza los materiales, puedes descargar los cambios:
 
 1. Abrir terminal en VSCode
-2. Asegurarte de estar en la carpeta `dalp`:
+2. Asegurarte de estar en la carpeta `python_campusdigital`:
    ```bash
-   cd dalp
+   cd python_campusdigital
    ```
 3. Descargar las actualizaciones:
    ```bash
@@ -153,7 +153,7 @@ Esto actualizará tu copia local con los nuevos materiales.
 
 ### No se puede clonar el repositorio
 - Verificar conexión a internet
-- Copiar y pegar exactamente la URL: `https://hefestos.empiriastudio.com/davidgasku/dalp.git`
+- Copiar y pegar exactamente la URL: `https://github.com/DavidGasku/python_campusdigital.git`
 
 ### VSCode no ejecuta Python
 - Instalar la extensión de Python
